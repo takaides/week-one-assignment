@@ -1,1 +1,3 @@
-#Week One Project\n- HTML\n- CSS
+# Week One Project
+- HTML
+- CSS
