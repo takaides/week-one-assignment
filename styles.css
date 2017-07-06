@@ -51,6 +51,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
 header img {
@@ -85,6 +86,216 @@ header a:hover {
 
 header a:active {
   color: #CD5D67;
+}
+
+#hiddenBehindTheHeader {
+  height: 4rem;
+  width: 100%;
+  background-color: #F2F1E8;
+}
+
+h1 {
+  font-size: 56px;
+  text-align: center;
+  font-weight: 500;
+  padding: 1em 0 0;
+}
+
+#mainPageContent {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#mainPageContent h2 {
+  font-size: 32px;
+  font-weight: 300;
+  padding-top: .5em;
+  padding-bottom: 1.5em;
+}
+
+#mainPhotos {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.mainPhoto {
+  background-repeat: no-repeat;
+  margin: 1vw;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: flex-end;
+  justify-content: flex-start;
+}
+
+.mainPhoto span {
+  padding: 1em;
+  background-color: #2B2F26;
+  color: #F5EFDB;
+  flex-flow: nowrap;
+  margin: auto auto 2vw 0;
+  /*position: relative;
+  top: 3vw;
+  left: 0;*/
+}
+
+.imgGroup0 {
+  height: 35vw;
+  width: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.imgGroup1 {
+  height: 35vw;
+  width: 40%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.imgGroup2 {
+  height: 20vw;
+  width: 40%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.imgGroup3 {
+  height: 20vw;
+  width: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.imgGroup0 div {}
+
+.imgGroup1 div {
+  width: 50%;
+}
+
+.imgGroup2 div {
+  width: 50%;
+}
+
+.imgGroup3 div {}
+
+#photo1 {
+  background-image: url("images/product-1.jpg");
+  width: 100%;
+}
+
+#photo2 {
+  background-image: url("images/product-2.jpg");
+  width: 50%;
+}
+
+#photo3 {
+  background-image: url("images/product-3.jpg");
+  width: 50%;
+}
+
+#photo4 {
+  background-image: url("images/product-4.jpg");
+  width: 50%;
+}
+
+#photo5 {
+  background-image: url("images/product-5.jpg");
+  width: 50%;
+}
+
+#photo6 {
+  background-image: url("images/product-6.jpg");
+  width: 60%;
+}
+
+#photo7 {
+  background-image: url("images/product-7.jpg");
+  width: 40%;
+}
+
+.mainAbout {
+  width: 830px;
+  margin: 0 auto;
+  line-height: 2em;
+  /*font-weight: 700;*/
+  font-size: 18px;
+}
+
+.mainAbout h1 {
+  margin: 1em auto;
+  padding: 1em;
+}
+
+.aboutImage {
+  width: 170px;
+  margin: 0 30px 10px 0;
+  float: left;
+}
+
+.mainAbout blockquote {
+  padding: 0 2em;
+  border-left: solid #131511 2px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 2em 0;
+}
+
+.mainAbout h2 {
+  padding: 1em 0;
+  font-weight: 300;
+}
+
+#windowToSucculent {
+  background-image: url("images/background-3.jpg");
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+#windowToSucculent h1 {
+  color: white;
+  padding: 1em;
+}
+
+#facilities {
+  display: flex;
+}
+
+#facilities p {
+  padding-right: 1.2em;
+}
+
+#facilities aside {
+  font-size: 13px;
+  width: 180px;
+  line-height: 1.5em;
+}
+
+.mainAbout table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  margin: 0 auto 4em 0;
+}
+
+.mainAbout td, th {
+  border: solid 1px black;
+  padding: 1em;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+.altBG td {
+  background-color: #F4EDE8;
 }
 
 #newsletterBackground {
